@@ -1,0 +1,58 @@
+{
+  "name": "@akkadu/rsi-vue-3",
+  "version": "1.0.2",
+  "description": "",
+  "repository": "",
+  "author": "Rouiller Romain <rouiller.romain11@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --name akkadu-rsi ./src/index.js",
+    "publish":"yarn build & yarn publish"
+  },
+  "files": [
+    "dist/akkadu-rsi.umd.min.js"
+  ],
+  "main": "./dist/akkadu-rsi.umd.min.js",
+  "dependencies": {
+    "@akkadu/rsi-interpretation-player": "^0.3.32",
+    "copy-webpack-plugin": "^9.0.1",
+    "vue": "^3.0.0",
+    "vue-i18n": "^9.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0-0",
+    "babel-loader": "^8.2.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
