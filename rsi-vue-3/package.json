@@ -1,6 +1,6 @@
 {
   "name": "@akkadu/rsi-vue-3",
-  "version": "1.0.2",
+  "version": "1.0.7",
   "description": "",
   "repository": "",
   "author": "Rouiller Romain <rouiller.romain11@gmail.com>",
@@ -9,10 +9,10 @@
   "scripts": {
     "start": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name akkadu-rsi ./src/index.js",
-    "publish":"yarn build & yarn publish"
+    "release": "yarn build & yarn publish"
   },
   "files": [
-    "dist/akkadu-rsi.umd.min.js"
+    "dist/**"
   ],
   "main": "./dist/akkadu-rsi.umd.min.js",
   "dependencies": {
@@ -27,9 +27,9 @@
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0",
     "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
     "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^7.0.0-0",
-    "babel-loader": "^8.2.2"
+    "eslint-plugin-vue": "^7.0.0-0"
   },
   "eslintConfig": {
     "root": true,
