@@ -66,10 +66,10 @@
     "@akkadu/rsi-base" "^0.2.22"
     "@akkadu/rtc-streamer-consumer" "^3.0.3"
 
-"@akkadu/rsi-vue-3@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@akkadu/rsi-vue-3/-/rsi-vue-3-1.0.0.tgz#f6e31654ed4fcc820ea4e74bbfd4f601ebe7e6b1"
-  integrity sha512-mDxKjW2VLfkoWUD8TrM15INYcxvK+eGYz8EyAHUpNXYQzizDbeVemaUq6fYq6mQakZ0sBpSt9EhDm85d1a/sUQ==
+"@akkadu/rsi-vue-3@^1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@akkadu/rsi-vue-3/-/rsi-vue-3-1.0.7.tgz#5d026ad0e5369122edc47d534524ffa4b41078ac"
+  integrity sha512-+vjbjUqqLhH2RAw8ht0RPVuk/ArOl1qMJQcODsf8oL5dwZ8tAM4viy3gEl3X/ifT41c0B9x3QRuTL5QuOZCwpA==
   dependencies:
     "@akkadu/rsi-interpretation-player" "^0.3.32"
     copy-webpack-plugin "^9.0.1"

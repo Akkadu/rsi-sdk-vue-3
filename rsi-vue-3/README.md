@@ -3,3 +3,8 @@
 
 * yarn install
 * yarn start
+
+
+### To publish
+
+* `yarn release`
